@@ -1,6 +1,6 @@
 import React from "react";
-import { poppins } from "../../app/layout";
 import clsx from "clsx";
+import { poppins } from "./Fonts";
 
 interface TitleProps extends React.HTMLAttributes<HTMLHeadingElement> {
   size: "h1" | "h3";

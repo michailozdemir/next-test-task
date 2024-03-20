@@ -1,6 +1,6 @@
-import { poppins } from "@/app/layout";
-import clsx from "clsx";
 import React from "react";
+import clsx from "clsx";
+import { poppins } from "./Fonts";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant: "primary";
